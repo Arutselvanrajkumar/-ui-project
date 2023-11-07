@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:gray;
+    color:orange;
+    text-align: center;
+    padding: 3px 0;
+}
+nav {
+    background-color:transparent;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color:pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color:rgb(16, 15, 15);
+}
+section {
+    padding: 20px;
+}
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+    padding: 15px 0;
+    z-index: 1;
+  }
+  .container {
+    position: relative;
+  }
+  section{
+    color: aliceblue;
+  }
+h2{
+    color:red
+  }
+  .h2{
+    padding: 10px 10px;
+  }
+  h3{
+    padding: 10px 10px;
+    color:brown
+}
+label{
+    padding: 10px 10px;
+}
+input
+ {
+    padding: 10px 20px;
+ }
+ .centered-container {
+    text-align: left;
+ }
+ button{
+    color: blue;
+    background-color: bisque;
+ }
